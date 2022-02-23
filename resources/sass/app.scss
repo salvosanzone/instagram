@@ -1,0 +1,70 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import "~font-awesome/scss/font-awesome.scss";
+
+.container-ss{
+  width: 900px;
+}
+
+.container_ss{
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  position: relative;
+  padding-top: 10px;
+  
+}
+
+a{
+  margin: 0 5px !important;
+  cursor: pointer;
+}
+
+.profile{
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+
+  img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+}
+.box{
+  border: 1px solid black;
+}
+
+.circle{
+  width: 66px;
+  height: 66px;
+  border: 1px solid rgb(167, 38, 38);
+  border-radius: 50%;
+  padding: 2px;
+  margin-left: 10px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+
+// .fixed{
+//   position: fixed;
+//   left: 849px
+// }
